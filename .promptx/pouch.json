@@ -1,0 +1,67 @@
+{
+  "currentState": "initial",
+  "stateHistory": [
+    {
+      "from": "initial",
+      "command": "project",
+      "timestamp": "2025-12-23T13:34:30.779Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/zhangcolin/workspace/Co-Lin",
+          "ideType": "cursor"
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2025-12-23T13:34:59.389Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-12-23T13:36:30.062Z",
+      "args": [
+        "sean"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "remember",
+      "timestamp": "2025-12-24T01:16:54.777Z",
+      "args": [
+        {
+          "role": "sean",
+          "engrams": [
+            {
+              "content": "张老师AI素养课困境：程序员转教师，教高中老师AI应用，6节课。核心矛盾：老师能动性差+不知真实痛点+国内AI不稳定+必须分科目。目标：让老师记住几个可复制配方，觉得AI有用",
+              "schema": "AI素养课 教师培训 困境 约束条件 课程设计",
+              "strength": 0.8,
+              "type": "ATOMIC"
+            },
+            {
+              "content": "解决方案：放弃教原理，改教配方。基于豆包/deepseek/kimi设计分步骤示例。必须文生图+编程（老师刚需）。核心策略：把不稳定变成教学内容，接受失败并教应对",
+              "schema": "课程设计策略 配方式教学 分步骤 应对失败",
+              "strength": 0.9,
+              "type": "PATTERN"
+            },
+            {
+              "content": "化学课编程方案：4个可选方案（分子结构可视化、方程式配平器、元素周期表、浓度计算器），每个拆6步迭代。已验证分子结构方案稳定可行。注意处理继续生成问题",
+              "schema": "化学 AI编程 分步骤示例 HTML工具 教学方案",
+              "strength": 0.9,
+              "type": "ATOMIC"
+            },
+            {
+              "content": "课程设计原则：极简操作≤5步+稳定可复现90%+即时验证3秒+学科相关+高频场景。避免需要专业判断的内容。准备备选方案和救场材料",
+              "schema": "设计原则 示例标准 课程约束 教学策略",
+              "strength": 0.8,
+              "type": "PATTERN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-12-24T01:16:55.175Z"
+}
